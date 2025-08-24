@@ -1,23 +1,5 @@
 import LoadingScreen from "./Components/Helper/LoadingScreen";
 import "./globals.css";
-import localFont from "next/font/local";
-
-const lamasans = localFont({
-  src: [
-    {
-      path: "/fonts/LamaSans-Regular.ttf", // صحيح الآن
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "/fonts/LamaSans-SemiBold.ttf",
-      weight: "600",
-      style: "normal",
-    },
-  ],
-  variable: "--font-lama",
-});
-
 
 export const metadata = {
   title: "Create Next App",
@@ -27,9 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body
-        className={lamasans.variable}
-      >
+      <body>
         <LoadingScreen />
         {children}
       </body>
