@@ -14,7 +14,7 @@ const LoadingScreen = () => {
     if (!isloading) return null
 
   return (
-    <div className=' fixed inset-0 bg-white flex items-center justify-center z-50'>
+    <div className=' fixed inset-0 bg-white flex items-center justify-center z-[9999]'>
         <div className='  w-16 h-16 border-4 border-gray-400 border-t-primary rounded-full animate-spin'></div>
     </div>
   )
