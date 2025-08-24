@@ -72,19 +72,13 @@
 }
 
 /* Container */
-.custom-container {
+.cutom-container{
   max-width: 1200px;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
-/* Responsiveness */
-@media (max-width: 758px) {
-  .custom-container {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
 
-body {
+
+body , html{
   overflow-x: hidden;
 }

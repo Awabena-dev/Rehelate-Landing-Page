@@ -17,7 +17,7 @@ const MobileNav = ({ isOpen, onClose }) => {
         <>
             {/* Overlay */}
             <div
-                className={`fixed top-0 left-0 w-full h-screen bg-gray-700 bg-opacity-50 transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
+                className={`fixed top-0 left-0 w-full h-screen bg-gray-700 bg-opacity-50 transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-[100%]"}`}
                 onClick={onClose}
             ></div>
 
