@@ -5,12 +5,12 @@ import localFont from "next/font/local";
 const lamasans = localFont({
   src: [
     {
-      path: "/fonts/LamaSans-Regular.ttf", // صحيح الآن
+      path: "./fonts/LamaSans-Regular.ttf", // صحيح الآن
       weight: "400",
       style: "normal",
     },
     {
-      path: "/fonts/LamaSans-SemiBold.ttf",
+      path: "./fonts/LamaSans-SemiBold.ttf",
       weight: "600",
       style: "normal",
     },
